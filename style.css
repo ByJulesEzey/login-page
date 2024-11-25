@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Fondamento:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fondamento", cursive;
+}
+body{
+    background-image: url(/img1.wallspic.com-feuille-matin-red-nature-printemps-8256x5504.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+}
+
+section{
+    background-color: transparent;
+    padding: 30px;
+    width: 420px;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+section h1{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+}
+
+.input-box{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(255,225,255,0.2);
+    color: white;
+    padding-right: 40px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    color: white;
+    transform: translateY(-50%);
+    right: 20px;
+    top: 50%;
+}
+
+.rappel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 13px;
+    border-radius: 25px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.btn-login:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255,225,255,0.2);
+    color: white;
+}
+
+.rappel a , .enregister a {
+    color: white;
+    text-decoration: none;
+}
+
+.rappel a:hover {
+    text-decoration: underline;
+}
+
+.enregister a{
+    color: white;
+    text-decoration: none;
+}
+
+.enregister a:hover{
+    text-decoration: underline;
+}
+
+.enregister{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 14px;
+}
